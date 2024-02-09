@@ -1,21 +1,28 @@
 package featureTest;
 
-import io.qameta.allure.*;
-import org.junit.jupiter.api.DisplayName;
+import io.restassured.RestAssured;
 import org.testng.annotations.Test;
 
-import static org.testng.TestNGAntTask.Mode.junit;
-
-@Epic("MainTest")
-@Feature("Ticket")
-@Story("OK")
+import static io.restassured.RestAssured.given;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 public class FirstTest {
 
     @Test
-    @DisplayName("SU")
-    public void aeroflotStandardAdtChdInfTest() {
-        System.out.println("hello !");
+    public void testYaRuApi() {
+        // Установка базового URL
+        RestAssured.baseURI = "https://ya.ru";
+
+        // Отправка GET-запроса
+        int statusCode = given()
+                .when()
+                .get()
+                .then()
+                .extract()
+                .statusCode();
+
+        // Проверка кода ответа
+        assertEquals(200, statusCode, "Код ответа не является 200");
     }
 }

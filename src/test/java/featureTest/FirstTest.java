@@ -12,7 +12,7 @@ public class FirstTest {
 
     @Test
     @DisplayName("проверка кода 200")
-    public void testYaRuApi() {
+    public void yaRuApiTest() {
         // Установка базового URL
         RestAssured.baseURI = "https://ya.ru";
 

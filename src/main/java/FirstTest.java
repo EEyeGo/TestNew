@@ -1,5 +1,3 @@
-package featureTest;
-
 import io.restassured.RestAssured;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

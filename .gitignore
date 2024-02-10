@@ -36,5 +36,5 @@
 /allure-results/ef871ed6-8e73-464d-a12b-32b7ed3783d9-container.json
 /allure-results/f18cd89f-10b6-430d-8cbd-8acf042666ab-result.json
 /allure-results/fc4cdaca-b267-4aa2-a0e2-0afc00a12c4a-container.json
-/build/reports/tests/test/classes/featureTest.FirstTest.html
-/build/test-results/test/TEST-featureTest.FirstTest.xml
+/build/reports/tests/test/classes/FirstTest.html
+/build/test-results/test/TEST-FirstTest.xml

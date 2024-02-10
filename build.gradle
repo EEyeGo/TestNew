@@ -19,8 +19,8 @@ dependencies {
 // https://mavenlibs.com/maven/dependency/io.qameta.allure/allure-junit5
     implementation group: 'io.qameta.allure', name: 'allure-junit5', version: '2.24.0'
     // Allure
-    implementation 'io.qameta.allure:allure-junit5:2.21.0'
-    runtimeOnly 'org.aspectj:aspectjweaver:1.9.19'
+//    implementation 'io.qameta.allure:allure-junit5:2.21.0'
+//    runtimeOnly 'org.aspectj:aspectjweaver:1.9.19'
 }
 
 test {
